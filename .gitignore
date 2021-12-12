@@ -4,10 +4,7 @@
 ## Get latest from https://github.com/github/gitignore/blob/master/VisualStudio.gitignore
 
 # Custom files
-package-lock.json
-package.json
 .DS_Store
-dist/
 
 # User-specific files
 *.rsuser
