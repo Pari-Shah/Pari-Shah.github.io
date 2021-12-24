@@ -11584,11 +11584,11 @@ body {
   size: 200%;
 }
 
-/* .bounce {
+.bounce {
   -moz-animation: bounce 2s infinite;
   -webkit-animation: bounce 2s infinite;
   animation: bounce 2s infinite;
-} */
+}
 
 @keyframes bounce {
   0%, 20%, 50%, 80%, 100% {
