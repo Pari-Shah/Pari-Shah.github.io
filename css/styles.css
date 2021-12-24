@@ -607,6 +607,11 @@ progress {
   height: auto;
 }
 
+.img-height {
+  width:  100px;
+  height: 100px;
+}
+
 .img-thumbnail {
   padding: 0.25rem;
   background-color: #fff;
@@ -11556,6 +11561,47 @@ body {
   border: 0;
 }
 
+/* typewriter styling */
+.typewriter {
+  white-space: nowrap;
+  overflow: hidden;    
+}
+
+.typewriter {
+  animation: animated-text 2s steps(30,end) 1s 1 normal both;
+}
+
+@keyframes animated-text{
+  from{width: 0;}
+  to{width: 650px;}
+}
+
+/* bouncing arrow */
+.arrow {
+  text-align: center;
+  margin: 8% 0;
+  color: #64a19d;
+  size: 200%;
+}
+
+.bounce {
+  -moz-animation: bounce 2s infinite;
+  -webkit-animation: bounce 2s infinite;
+  animation: bounce 2s infinite;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-30px);
+  }
+  60% {
+    transform: translateY(-15px);
+  }
+}
+
 .masthead {
   position: relative;
   width: 100%;
@@ -11612,10 +11658,26 @@ body {
   }
 }
 
+.about-section {
+  padding-top: 10rem;
+  min-height: 100vh;
+  
+}
+
+.about-section p {
+  margin-bottom: 5rem;
+}
+
+.about-section h3, .about-section .h3 {
+  font-size: 1.2rem;
+}
+
 .skills-section {
   padding-top: 10rem;
   background: linear-gradient(to bottom, #000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  min-height: 100vh;
 }
+
 .skills-section p {
   margin-bottom: 5rem;
 }
