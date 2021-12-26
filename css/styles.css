@@ -607,9 +607,14 @@ progress {
   height: auto;
 }
 
-.img-height {
+.img-size-about {
   width:  100px;
   height: 100px;
+}
+
+.img-size-projects {
+  width:  75%;
+  height: 75%;
 }
 
 .img-thumbnail {
