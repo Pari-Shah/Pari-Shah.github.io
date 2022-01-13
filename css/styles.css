@@ -608,8 +608,18 @@ progress {
 }
 
 .img-size-about {
-  width:  85px;
-  height: 85px;
+  width:  75px;
+  height: 75px;
+}
+
+.skills-section-margin {
+  margin-right: 5rem;
+  margin-left: 5rem;
+  margin-bottom: 5rem;
+}
+
+.mb-large {
+  margin-bottom: 7rem;
 }
 
 
