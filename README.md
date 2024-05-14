@@ -1,16 +1,28 @@
-### Hi there 👋
+# Personal Portfolio
+Welcome to my Personal Portfolio!
 
-<!--
-**Pari-Shah/Pari-Shah** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+## Features
 
-Here are some ideas to get you started:
+* Vite
+```bash
+# Install dependencies
+$ npm i
+# run the app
+$ npm run dev
+```
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+
+## How To Use
+
+To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js](https://nodejs.org/en) and [Vite](https://vitejs.dev/) installed on your computer. From your command line:
+
+```bash
+# Clone this repository
+$ git clone https://github.com/bl33h/whosbl33h
+
+# Install dependencies
+$ npm i
+
+# Run the app
+$ npm run dev
+```
